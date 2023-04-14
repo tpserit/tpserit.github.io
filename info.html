@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P98PBFJZMW"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-P98PBFJZMW');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" href="images/Serit-bakgaarden-logo.ico"/>
+    <link rel="apple-touch-icon-precomposed" href="images/Serit-bakgaarden-logo.ico" />
+    <link rel="icon" href="images/Serit-bakgaarden-logo.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Informasjon | Bakgården 2022</title>
+    <script src="script/script.js"></script>
+</head>
+<body>
+    <header class="header">
+        
+        <div class="header_container">
+            <a href="/">
+                <img src="images/bakgaarden-logo.svg" alt="bakgaarden-logo">
+            </a>
+            <p class="program_subheading header_text">HARSTAD 18. - 20. AUGUST 2022</p>
+        </div>
+
+        <div class="header_container">
+            <a href="/">
+                <i class="bi bi-house-door-fill bi-white header_home"></i>
+            </a>
+        </div>
+    </header>
+    <section class="center-content">
+        <h3 class="program_heading">Oversiktskart</h4>
+    </section>
+    <img class="mobile-image" src="images/festivalkart-2022.png" alt="Festivalkart">
+    <section class="center-content">
+        <h3 class="program_heading">Ofte stilte spørsmål</h4>
+        <button class="accordion" onclick="ToggleAccordion(0)"><span><i class="bi bi-caret-right-fill bi-white"></i></span>Må jeg ha grønt koronasertifikat?</button>
+        <div class="accordion_panel">Årets festival planlegges for helt normal gjennomføring uten koronasertifikat slik som det var i 2021</div>
+        
+        <button class="accordion" onclick="ToggleAccordion(1)"><span><i class="bi bi-caret-right-fill bi-white"></i></span>Må billett byttes i armbånd før jeg kan komme inn / Hvor bytter jeg billetten min mot armbånd?</button>
+        <div class="accordion_panel">Alle billetter må byttes i armbånd for å komme inn på festivalområdet.<br>
+        Dette gjør du i akrediteringsteltet ved inngangen til festivalområdet på torget.<br>
+        Åpningstider for bytting av billett mot armbånd vil bli annonsert på <a href="https://www.facebook.com/Bakgaarden/" target="_blank">Bakgårdens Facebook-side</a> når det nærmer seg festival</div>
+        
+        <button class="accordion" onclick="ToggleAccordion(2)"><span><i class="bi bi-caret-right-fill bi-white"></i></span>Kan noen andre hente armbåndet for meg?</button>
+        <div class="accordion_panel">Nei, det er kun personlig oppmøte ved bytte av billett til armbånd. Dette skyldes en rekke faktorer, men er hovedsaklig knyttet til sikkerhet og behov for å ha kontroll på hvem som tar på seg armbåndene.</div>
+        
+        <button class="accordion" onclick="ToggleAccordion(3)"><span><i class="bi bi-caret-right-fill bi-white"></i></span>Må jeg være 18 år?</button>
+        <div class="accordion_panel">På årets festival er aldersgrensen 18 år. Dette gjelder alle dagene.</div>
+    </section>
+    <footer class="footer footer_init">
+        <p class="footer_text">Utviklet av: </p>
+        <div class="footer_image_container">
+            <a href="https://serit.no" target="_blank">
+                <img src="https://serit.no/content/uploads/2022/06/Serit-logo.svg" alt="serit-logo">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+    "name": "Bakgården 2022",
+    "short_name": "Bakgården",
+    "start_url": "./",
+    "display": "standalone",
+    "background_color": "#141414",
+    "theme_color": "#141414",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "images/Serit-bakgaarden-logo.ico",
+            "type": "image/ico", "sizes": "256x256"
+        },
+        {
+            "src": "images/Serit-bakgaarden-logo-192x192.png",
+            "type": "image/png", "sizes": "192x192"
+        },
+        {
+            "src": "images/Serit-bakgaarden-logo-512x512.png",
+            "type": "image/png", "sizes": "512x512"
+        }
+    ]
+}
