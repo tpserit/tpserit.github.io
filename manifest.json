@@ -1,23 +1,64 @@
 {
-    "name": "Bakgården 2022",
-    "short_name": "Bakgården",
-    "start_url": "./",
-    "display": "standalone",
-    "background_color": "#141414",
-    "theme_color": "#141414",
-    "orientation": "portrait-primary",
+"shortcuts": [
+  {
+    "name": "Start Live Session",
+    "short_name": "Start Live",
+    "description": "Jump direction into starting or joining a live session",
+    "url": "/?startLive",
     "icons": [
-        {
-            "src": "images/Serit-bakgaarden-logo.ico",
-            "type": "image/ico", "sizes": "256x256"
-        },
-        {
-            "src": "images/Serit-bakgaarden-logo-192x192.png",
-            "type": "image/png", "sizes": "192x192"
-        },
-        {
-            "src": "images/Serit-bakgaarden-logo-512x512.png",
-            "type": "image/png", "sizes": "512x512"
-        }
+      {
+        "src": "https://pwabuilder.com/assets/icons/icon_192.png",
+        "sizes": "192x192"
+      }
     ]
+  }
+], 
+"display_override": ["window-controls-overlay"], 
+"protocol_handlers": [{"protocol":"mailto","url":"/newEmail?to=%s"}], 
+  "background_color": "#ffffff",
+  "description": "Test app",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "tpserit.github",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "tpserit.github",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "categories": [],
+  "screenshots" : [
+    {
+      "src": "https://tpserit.github.io/tpbakgaarden/screenshots/1.jpg",
+      "sizes": "1080x1920",
+      "type": "image/webp",
+      "platform": "wide",
+      "label": "Homescreen of Awesome App"
+    }
+  ],
+  "icons": [
+    {
+      "src": "c:/Users/thomas.paulsen/Prosjekter/Bakgaarden mobile app/tpserit/pwa/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "c:/Users/thomas.paulsen/Prosjekter/Bakgaarden mobile app/tpserit/pwa/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "c:/Users/thomas.paulsen/Prosjekter/Bakgaarden mobile app/tpserit/pwa/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "c:/Users/thomas.paulsen/Prosjekter/Bakgaarden mobile app/tpserit/pwa/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
 }
