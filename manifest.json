@@ -6,8 +6,8 @@
   "name": "tpserit.github",
   "orientation": "any",
   "scope": "/",
-  "short_name": "tpserit.github",
-  "start_url": "/",
+  "short_name": "bakgaarden.tpserit",
+  "start_url": "/tpbakgaarden/info.html",
   "theme_color": "#ffffff",
   "categories": [],
   "screenshots": [
