@@ -32,7 +32,3 @@ function ToggleAccordion(i) {
     panel.style.display = "block";
   }
 }
-function () {
-  $("#header").load("header.html");  
-  $("#footer").load("footer.html");  
-};
