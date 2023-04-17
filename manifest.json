@@ -5,7 +5,7 @@
   "display": "standalone",
   "name": "bakgaarden.tpserit",
   "orientation": "any",
-  "scope": "/",
+  "scope": "/tpbakgaarden/",
   "short_name": "bg.tps",
   "start_url": "/tpbakgaarden/index.html",
   "theme_color": "#000000",
