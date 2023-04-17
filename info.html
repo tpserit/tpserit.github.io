@@ -21,18 +21,20 @@
     <link rel="stylesheet" href="main.css">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <title>Informasjon | Bakgården 2022</title>
-    <script>navigator.serviceWorker.register("/tpbakgaarden/service-worker-v2.js")</script> 
-    <link rel="manifest" href="/tpbakgaarden/manifest.json">
-    <script src="script/script.js"></script>
-    <script src="script/test.js"></script>
+    <script>navigator.serviceWorker.register("service-worker-v3.js")</script> 
+    <link rel="manifest" href="manifest.json">
+    <script src="/script/script.js"></script>
     <script>  
         $(function(){ 
-          $("#header").load("/tpbakgaarden/header.html");  
+          $("#header").load("header.html");  
           $("#footer").load("/tpbakgaarden/footer.html");  
         }); 
         </script>
 </head>
 <body>
+    <h1 class="offline-msg">
+        Haha u r offline!
+      </h1>
     <div id="header"></div>
     <section class="center-content">
         <h3 class="program_heading">Oversiktskart - test 1</h4>
