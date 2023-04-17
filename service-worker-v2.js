@@ -1,4 +1,38 @@
-﻿/*
+﻿const staticAssets = [
+    '',
+    'index.html',
+    'index.php',
+    'program.html',
+    'weather.html',
+    'info.html',
+    'main.css',
+    'manifest.json',
+    'images/Serit-bakgaarden-logo-192x192.png',
+    'images/Serit-bakgaarden-logo-512x512.png',
+    'images/Serit-bakgaarden-logo.ico',
+    'images/Serit-bakgaarden-logo.png',
+    'images/bakgaarden-logo.svg',
+    'images/oversiktskart.webp',
+    'images/clear_sky.svg',
+    'images/partly_clouded.svg',
+    'images/light_clouds.svg',
+    'images/cloudy.svg',
+    'images/light_rain.svg',
+    'images/rain.svg',
+    'images/heavy_rain.svg',
+    'images/fair_night.svg',
+    'images/partly_clouded_night.svg',
+    'script/app.js',
+    'script/FetchWeatherAPIData.js',
+    'script/GetAverageWeatherData.js',
+    'script/GetWeatherSymbol.js',
+    'script/index.js',
+    'script/ParseWeatherData.js',
+    'script/script.js',
+];
+
+
+/*
 Copyright 2015, 2019, 2020, 2021 Google LLC. All Rights Reserved.
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -19,7 +53,7 @@ Copyright 2015, 2019, 2020, 2021 Google LLC. All Rights Reserved.
 const OFFLINE_VERSION = 1;
 const CACHE_NAME = "offline";
 // Customize this with a different URL if needed.
-const OFFLINE_URL = "/tpbakgaarden/offline.html";
+const OFFLINE_URL = "offline.html";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
