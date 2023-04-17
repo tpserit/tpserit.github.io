@@ -12,8 +12,9 @@
     <title>Bakgården 2022</title>
     <script>navigator.serviceWorker.register("service-worker-v2.js")</script> 
     <link rel="manifest" href="manifest.json">
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-messaging.js"></script>
     <script src="script/script.js"></script>
-    <script src="script/main.js"></script>
 </head>
 <body>
     <header class="header">
@@ -79,9 +80,10 @@
     </nav>
     </label>
     </header>
-    <div class="Notify">
-        <h2>Velkommen!</h2>
-    </div>
+    <div id="token"></div>
+    <div id="message"></div>
+    <div id="error"></div>
+    <script src="index.js"></script>
     <footer class="footer">
         <p class="footer_text">Utviklet av: </p>
         <div class="footer_image_container">

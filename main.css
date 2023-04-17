@@ -97,7 +97,7 @@ body {
     position: initial;
 }
 
-.footer > .footer_image_container > a > img {
+.footer > .footer_image_container > a > svg {
     max-width: 100%;
     width: 180px;
 }
