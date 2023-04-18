@@ -2,7 +2,7 @@
 const errorMessage = document.getElementById("error");
 const message = document.getElementById("message");
 const config = {
-  apiKey: "AIzaSyAAYCP9wE7CgU2cykExhcW5RJzYE1R9Kag",
+  apiKey: "AAAAl-O45CE:APA91bGkKLP48urtgnPqKvMJqBaqA6XCQ4lK82bUmainCXEypXkHjWoLSjD9AehxjcUMRNUFDSRsJzUwZ8jj5aO97l3sKTbRj9oIZzemWoqF8exVfCtpT2Td0SpZTSK98f7lLoz_i23p",
   authDomain: "bktest-d2bb9.firebaseapp.com",
   projectId: "bktest-d2bb9",
   storageBucket: "bktest-d2bb9.appspot.com",
