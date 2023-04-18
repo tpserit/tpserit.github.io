@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="main.css">
     <meta name="theme-color" content="#fff"/>
     <title>Bakgården 2022</title>
-    <script>navigator.serviceWorker.register("service-worker-v2.js")</script> 
+    
     <link rel="manifest" href="manifest.json">
     <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-messaging.js"></script>
@@ -91,14 +91,5 @@
         </div>
     </footer>
     <script src="index.js"></script>
-    <script>
-        if('serviceWorker' in navigator) { 
-                  navigator.serviceWorker.register('firebase-messaging-sw.js')
-                .then(function(registration) {
-                 console.log("Service Worker Registered");
-                messaging.useServiceWorker(registration);  
-                  }); 
-                  }
-                </script>
 </body>
 </html>
