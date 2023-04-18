@@ -2,26 +2,16 @@
 const errorMessage = document.getElementById("error");
 const message = document.getElementById("message");
 const config = {
-      
-    apiKey: "AIzaSyDuqHcMxy8_zSSTMWsjSJae-epC6sHYgTY",
-
+    apiKey: "AIzaSyAAYCP9wE7CgU2cykExhcW5RJzYE1R9Kag",
     authDomain: "bktest-d2bb9.firebaseapp.com",
-
     projectId: "bktest-d2bb9",
-
     storageBucket: "bktest-d2bb9.appspot.com",
-
     messagingSenderId: "652360606753",
-
     appId: "1:652360606753:web:e287451c05560f0050ef60",
-
     measurementId: "G-45TVMHENPV"
-
   };
 firebase.initializeApp(config);
 const messaging = firebase.messaging();
-
-
 messaging
   .requestPermission()
   .then(() => {
@@ -40,5 +30,3 @@ messaging
     console.log("Message received. ", payload);
     const { title, ...options } = payload.notification;
   });
-  
-  
