@@ -1,7 +1,7 @@
 ﻿const tokenString = document.getElementById("token");
 const errorMessage = document.getElementById("error");
 const message = document.getElementById("message");
-const firebaseConfig = {
+const config = {
 
   apiKey: "AIzaSyAAYCP9wE7CgU2cykExhcW5RJzYE1R9Kag",
 
