@@ -10,6 +10,7 @@
   "start_url": "/tpbakgaarden/index.html",
   "theme_color": "#000000",
   "categories": [],
+  "gcm_sender_id": "652360606753",
   "screenshots": [
     {
       "src": "screenshots/1.jpg",
