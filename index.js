@@ -1,7 +1,7 @@
 ﻿const tokenString = document.getElementById("token");
 const errorMessage = document.getElementById("error");
 const message = document.getElementById("message");
-const config = {
+const firebaseConfig = {
   apiKey: "AIzaSyAAYCP9wE7CgU2cykExhcW5RJzYE1R9Kag",
   authDomain: "bktest-d2bb9.firebaseapp.com",
   projectId: "bktest-d2bb9",
@@ -10,7 +10,7 @@ const config = {
   appId: "1:652360606753:web:bd36dd70e24f030850ef60",
   measurementId: "G-GF94RPR1S7"
   };
-firebase.initializeApp(config);
+firebase.initializeApp(firebaseConfig);
 const messaging = firebase.messaging();
 messaging
   .requestPermission()
